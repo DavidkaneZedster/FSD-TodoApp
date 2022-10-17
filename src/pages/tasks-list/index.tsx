@@ -1,4 +1,4 @@
-import { Layout, Row, Col, Typography, Spin, Empty } from "antd"; // ~ "shared/ui/{...}"
+import { Layout, Row, Col, Typography, Spin, Empty } from "antd";
 import { variant, list } from "@effector/reflect";
 import { combine } from "effector";
 
