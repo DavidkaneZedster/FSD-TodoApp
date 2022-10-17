@@ -1,4 +1,4 @@
-import type { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import { Card } from "antd";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.scss";

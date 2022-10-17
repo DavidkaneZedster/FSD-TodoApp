@@ -1,4 +1,4 @@
-import type { PropsWithChildren, ReactNode } from "react";
+import { PropsWithChildren, ReactNode } from "react";
 import cn from "classnames";
 import { Row } from "antd";
 import { Link } from "react-router-dom";

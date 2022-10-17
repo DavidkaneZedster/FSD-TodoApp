@@ -6,8 +6,9 @@ import { reflect } from "@effector/reflect";
 import { ToggleTask } from "features/toggle-task";
 import { TaskCard, taskModel } from "entities/task";
 import styles from "./styles.module.scss";
+import { RouteChildrenProps } from "react-router-dom";
 
-type Props = import("react-router-dom").RouteChildrenProps<{
+type Props = RouteChildrenProps<{
   taskId: string;
 }> & {
   isLoading: boolean;
